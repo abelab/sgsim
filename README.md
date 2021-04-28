@@ -19,6 +19,8 @@ sgsim is written in Python and uses [pandas](https://pandas.pydata.org/) for sta
 
 ![Graph](https://github.com/abelab/sgsim/raw/main/images/sg_hops_vs_n.png)
 
+![Histogram](https://github.com/abelab/sgsim/raw/main/images/sg_hops_hist.png)
+
 ## License
 MIT License
 
