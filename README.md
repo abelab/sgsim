@@ -26,16 +26,16 @@ sgsim is written in Python and uses [pandas](https://pandas.pydata.org/) for sta
 MIT License
 
 ## Installation
-Tested with Python3.9
+Tested with Python3.9.
 
-* pip install networkx
-* pip install matplotlib
-* pip install pandas
-* pip install colorama
+Install dependencies:
+```
+% pip -r requirements.txt
+```
 
 ## Usage
 ```
-% python3 sg_main.py -h
+% python sg_main.py -h
 usage: sg_main.py [-h] [-n N] [-a ALPHA] [--exp {basic,unicast,unicast_vary_n}]
                   [--unicast-algorithm {greedy,original}] [--fast-join] [--seed SEED] [--interactive]
                   [--output-topology-max-level OUTPUT_TOPOLOGY_MAX_LEVEL] [--output-hop-graph] [--diagonal]
@@ -77,4 +77,4 @@ You have to give `--fast-join` option to instruct statistically constructing a s
 
 ## Examples
 
-- `python3 sg_main.py  --fast-join --exp unicast --output-hop-graph -n 15 --unicast-algorithm original`
+- `python sg_main.py  --fast-join --exp unicast --output-hop-graph -n 15 --unicast-algorithm original`
