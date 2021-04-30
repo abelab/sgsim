@@ -5,9 +5,10 @@
 
 sgsim can:
 
-- constructs a skip graph overlay network based on a random membership vector
-- performs some simple experiments
-- output some graphs
+- construct a skip graph overlay network based on a random membership vector,
+- perform some simple experiments, 
+- render routing paths over a skip graph topology, and
+- compute some statistics and output graphs.
 
 sgsim is written in Python and uses [pandas](https://pandas.pydata.org/) for statistics.
 
@@ -32,7 +33,7 @@ Tested with Python3.9
 * pip install pandas
 * pip install colorama
 
-## Options
+## Usage
 ```
 % python3 sg_main.py -h
 usage: sg_main.py [-h] [-n N] [-a ALPHA] [--exp {basic,unicast,unicast_vary_n}]
